@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vitaminas24 – Bistrot Naturale a Roma Pigneto</title>
+    <meta name="description"
+        content="Vitaminas24 è un bistrot naturale vegano e vegetariano nel cuore del Pigneto a Roma. Menu biologico, gluten-free, cruelty-free e plastic-free. Via Ascoli Piceno 40-42." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;1,400&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="main.css" />
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header id="header">
+        <button class="hamburger" id="hamburger" aria-label="Apri menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <img src="images/logo.png" alt="Vitaminas24 - Bistrot Naturale Roma" class="header-logo" id="main-logo" />
+    </header>
+    <!-- NAV -->
+    <nav id="main-nav" aria-label="Navigazione principale">
+        <div class="section-nav">
+            <ul class="nav-list">
+                <li><a href="#hero" class="nav-link" id="nav-home">Home</a></li>
+                <li><a href="#chi-siamo" class="nav-link" id="nav-chi-siamo">Chi Siamo</a></li>
+                <li><a href="#menu" class="nav-link" id="nav-menu">Men&ugrave;</a></li>
+                <li><a href="#posizione" class="nav-link" id="nav-posizione">Posizione</a></li>
+                <li><a href="#contatti" class="nav-link" id="nav-contatti">Contatti</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HERO WITH SLIM GLASS CARD OVERLAID -->
+    <section class="hero" id="hero" aria-label="Home e Chi Siamo Vitaminas24">
+        <img src="images/home.png" alt="Vitaminas24 bistrot naturale vegano Roma Pigneto" id="hero-image"
+            class="hero-bg-image" />
+        <div class="hero-overlay" aria-hidden="true"></div>
+
+        <div class="section-container hero-container">
+            <div class="about-glass-card" id="chi-siamo" aria-labelledby="about-heading">
+                <div class="glass-header">
+                    <span class="section-label">Chi Siamo</span>
+                    <h2 class="section-title" id="about-heading">
+                        Un angolo di natura <em>nel cuore del Pigneto</em>
+                    </h2>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p class="about-lead">
+                            Dal 2011, Vitaminas24 &egrave; un bistrot naturale nel cuore del Pigneto dove mangiare sano
+                            incontra gusto, creativit&agrave; e convivialit&agrave;.
+                        </p>
+                        <p class="about-desc">
+                            Cucina 100% vegetale preparata ogni giorno con ingredienti biologici a filiera corta
+                            laziale, sapori d'ispirazione brasiliana ed estratti freschi. Una scelta etica,
+                            cruelty-free, plastic-free e attenta a tutte le esigenze con tante opzioni gluten-free.
+                        </p>
+                        <blockquote class="about-quote">
+                            <p>&ldquo;Sembra di stare nella cucina di un amico.&rdquo;</p>
+                        </blockquote>
+                    </div>
+
+                    <div class="about-aside">
+                        <div class="about-features-list">
+                            <div class="feature-item">
+                                <span class="feature-bullet"></span>
+                                <div class="feature-text">
+                                    <strong>Filiera Corta Laziale</strong>
+                                    <span>Bio di stagione da piccoli produttori locali</span>
+                                </div>
+                            </div>
+                            <div class="feature-item">
+                                <span class="feature-bullet"></span>
+                                <div class="feature-text">
+                                    <strong>100% Vegano &amp; Vegetariano</strong>
+                                    <span>Sapori autentici, colori e nutrienti vitali</span>
+                                </div>
+                            </div>
+                            <div class="feature-item">
+                                <span class="feature-bullet"></span>
+                                <div class="feature-text">
+                                    <strong>Gluten-Free Friendly</strong>
+                                    <span>Ampia scelta curata per ogni esigenza</span>
+                                </div>
+                            </div>
+                            <div class="feature-item">
+                                <span class="feature-bullet"></span>
+                                <div class="feature-text">
+                                    <strong>Cruelty &amp; Plastic-Free</strong>
+                                    <span>Rispetto del pianeta e packaging sostenibile</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="about-stats-strip">
+                            <div class="stat-cell">
+                                <span class="stat-number">2011</span>
+                                <span class="stat-label">Al Pigneto</span>
+                            </div>
+                            <div class="stat-sep"></div>
+                            <div class="stat-cell">
+                                <span class="stat-number">100%</span>
+                                <span class="stat-label">Bio Naturale</span>
+                            </div>
+                            <div class="stat-sep"></div>
+                            <div class="stat-cell">
+                                <span class="stat-number">0%</span>
+                                <span class="stat-label">Plastica</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TAGLINE MARQUEE -->
+    <div class="tagline-strip" aria-hidden="true">
+        <div class="tagline-inner">
+            <span>100% Vegano</span>
+            <span>Gluten Free</span>
+            <span>Cruelty Free</span>
+            <span>Plastic Free</span>
+            <span>Prodotti di stagione</span>
+            <span>Filiera corta</span>
+            <span>Agricoltura laziale</span>
+            <span>Dal 2011</span>
+            <span>100% Vegano</span>
+            <span>Gluten Free</span>
+            <span>Cruelty Free</span>
+            <span>Plastic Free</span>
+            <span>Prodotti di stagione</span>
+            <span>Filiera corta</span>
+            <span>Agricoltura laziale</span>
+            <span>Dal 2011</span>
+        </div>
+    </div>
+
+    <!-- ══ MEN&Ugrave; ════════════════════════════════════ -->
+    <section class="section-menu" id="menu" aria-labelledby="menu-heading">
+        <div class="section-container">
+            <span class="section-label">Il Nostro Men&ugrave;</span>
+            <h2 class="section-title" id="menu-heading">
+                Sapori autentici,<br><em>ingredienti naturali</em>
+            </h2>
+
+            <div class="menu-filters" role="tablist" aria-label="Filtra categorie menu">
+                <button type="button" class="menu-filter-btn active" data-filter="all">Tutto il Men&ugrave;</button>
+                <button type="button" class="menu-filter-btn" data-filter="cucina">Cucina</button>
+                <button type="button" class="menu-filter-btn" data-filter="wraps-panini">Wraps &amp; Panini</button>
+                <button type="button" class="menu-filter-btn" data-filter="bowls-frutta">Bowls &amp; Frutta</button>
+                <button type="button" class="menu-filter-btn" data-filter="dolci">Dolci</button>
+                <button type="button" class="menu-filter-btn" data-filter="bevande">Bevande &amp; Vini</button>
+            </div>
+
+            <div class="menu-grid">
+
+                <!-- ANTIPASTI -->
+                <div class="menu-category" id="menu-antipasti" data-category="cucina">
+                    <h3 class="menu-category-title">Antipasti</h3>
+                    <div class="menu-item">
+                        <span class="menu-item-name">HUMMUS</span>
+                        <span class="menu-item-desc">crema di ceci, rucola e semi di sesamo servito con crudit&eacute; e
+                            crostini <em>(vegano/gluten free)</em></span>
+                        <span class="menu-item-price">7&euro;</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="menu-item-name">CECINA</span>
+                        <span class="menu-item-desc">torta di ceci servita con crema di carote, cumino e cipolla
+                            caramellata <em>(vegano/gluten free)</em></span>
+                        <span class="menu-item-price">6&euro;</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="menu-item-name">SALGADINHOS</span>
+                        <span class="menu-item-desc">mix di 5 fingerfood brasiliani <em>(vegano)</em><br>
+                            Coxinha: ripieno di crema di mais<br>
+                            Empada: ripieno di zucchine e peperoni<br>
+                            Risoles: ripieno di bieta<br>
+                            Esfira: ripieno di verza e carote<br>
+                            Pao de queijo: di manioca e formaggio <em>(vegetariano)</em>
+                        </span>
+                        <span class="menu-item-price">6&euro;</span>
+                    </div>
+                </div>
+
+                <!-- PRIMI -->
+                <div class="menu-category" id="menu-primi" data-category="cucina">
+                    <h3 class="menu-category-title">Primi <small>(vegano/gluten free)</small></h3>
+                    <div class="menu-item">
+                        <span class="menu-item-name">VELLUTATA DI ZUCCHINE, PISELLI E BASILICO</span>
+                        <span class="menu-item-desc">servita con riso rosso o grano saraceno</span>
+                        <span class="menu-item-price">7,5&euro;</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="menu-item-name">VELLUTATA DI CAVOLFIORE, PERA E PISTACCHI</span>
+                        <span class="menu-item-desc">servita con riso rosso o grano saraceno</span>
+                        <span class="menu-item-price">7,5&euro;</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="menu-item-name">CREMA DI LENTICCHIE ROSSE EGIZIANE</span>
+                        <span class="menu-item-desc">con zucchine croccanti e mandorle, servita con crostini</span>
+                        <span class="menu-item-price">8,5&euro;</span>
+                    </div>
+                </div>
+
+                <!-- SECONDI -->
+                <div class="menu-category" id="menu-secondi" data-category="cucina">
+                    <h3 class="menu-category-title">Secondi <small>(gluten free)</small></h3>
+                    <div class="menu-item">
+                        <span class="menu-item-name">SFORMATO DI PATATE</span>
+                        <span class="menu-item-desc">con fagiolini, pomodori secchi, carote, ricotta, uovo e porro,
+                            servito con insalata</span>
+                        <span class="menu-item-price">8,5&euro;</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="menu-item-name">POLPETTE DI MELANZANE E CECI</span>
+                        <span class="menu-item-desc">servite con salsa al cocco e curry, riso rosso e cicoria ripassate
+                            <em>(vegano)</em></span>
+                        <span class="menu-item-price">10&euro;</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="menu-item-name">VEGBURGER DI FAGIOLI E SPINACI</span>
+                        <span class="menu-item-desc">servito con patate spezziate al forno <em>(vegano)</em></span>
+                        <span class="menu-item-price">10&euro;</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="menu-item-name">CREPE DI CECI</span>
+                        <span class="menu-item-desc">ripiena di radicchio e avocado, servita con couscous e insalata di
+                            agretti e ravanelli <em>(vegano)</em></span>
+                        <span class="menu-item-price">13&euro;</span>
+                    </div>
+                </div>
+
+                <!-- CONTORNO -->
+                <div class="menu-category menu-category-small" id="menu-contorno" data-category="cucina">
+                    <h3 class="menu-category-title">Contorno</h3>
+                    <div class="menu-item">
+                        <span class="menu-item-name">PATATE SPEZZIATE</span>
+                        <span class="menu-item-price">5&euro;</span>
+                    </div>
+                </div>
+
+                <!-- WRAPS -->
+                <div class="menu-category" id="menu-wraps" data-category="wraps-panini">
+                    <h3 class="menu-category-title">Wraps</h3>
+                    <div class="menu-item">
+                        <span class="menu-item-name">WRAP VEGANO</span>
+                        <span class="menu-item-desc">piadina bio farcita con hummus, avocado, insalata, radicchio,
+                            rucola e carote</span>
+                        <span class="menu-item-price">7,5&euro;</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="menu-item-name">WRAP VEGETARIANO</span>
+                        <span class="menu-item-desc">piadina bio farcita con crema di zucchine e piselli, insalata,
+                            radicchio, rucola, carote e caciotta</span>
+                        <span class="menu-item-price">8&euro;</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="menu-item-name">WRAP POLPETTA</span>
+                        <span class="menu-item-desc">piadina bio farcita con polpette di melanzane, insalata, radicchio,
+                            rucola, carote e salsa vegana</span>
+                        <span class="menu-item-price">10&euro;</span>
+                    </div>
+                </div>
+
+                <!-- PANINI -->
+                <div class="menu-category" id="menu-panini" data-category="wraps-panini">
+                    <h3 class="menu-category-title">Panini</h3>
+                    <div class="menu-item">
+                        <span class="menu-item-name">VEGANBURGER</span>
+                        <span class="menu-item-desc">burger di fagioli e spinaci servito nel panino al sesamo bio con
+                            insalata, radicchio, rucola, carote e salse vegane</span>
+                        <span class="menu-item-price">8&euro;</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="menu-item-name">CHEESEBURGER</span>
+                        <span class="menu-item-desc">burger di fagioli e spinaci servito nel panino al sesamo bio con
+                            caciotta, insalata, radicchio, rucola, carote e salse</span>
+                        <span class="menu-item-price">9&euro;</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="menu-item-name">5 E 5</span>
+                        <span class="menu-item-desc">panino farcito con cecina, crema di carote e cipolla caramellata
+                            <em>(vegano)</em></span>
+                        <span class="menu-item-price">6&euro;</span>
+                    </div>
+                </div>
+
+                <!-- INSALATE -->
+                <div class="menu-category" id="menu-insalate" data-category="cucina">
+                    <h3 class="menu-category-title">Insalate</h3>
+                    <div class="menu-item">
+                        <span class="menu-item-name">1</span>
+                        <span class="menu-item-desc">Lattuga, radicchio, carote, sedano, finocchio, mela, uvetta, frutta
+                            secca e semi di sesamo</span>
+                        <span class="menu-item-price">8&euro;</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="menu-item-name">2</span>
+                        <span class="menu-item-desc">Lattuga, rucola, carote, pomodori, avocado, caciotta e semi di
+                            sesamo</span>
+                        <span class="menu-item-price">9&euro;</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="menu-item-name">3</span>
+                        <span class="menu-item-desc">Lattuga, rucola, pera, pecorino bio, noce, miele e semi di
+                            sesamo</span>
+                        <span class="menu-item-price">9&euro;</span>
+                    </div>
+                </div>
+
+                <!-- DOLCI -->
+                <div class="menu-category" id="menu-dolci" data-category="dolci">
+                    <h3 class="menu-category-title">Dolci</h3>
+                    <div class="menu-item">
+                        <span class="menu-item-name">TORTA</span>
+                        <span class="menu-item-desc">di pera e cioccolato <em>(vegano/gluten free)</em></span>
+                        <span class="menu-item-price">7&euro;</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="menu-item-name">WRAP</span>
+                        <span class="menu-item-desc">ripieno di banane, cannella e crema di nocciole</span>
+                        <span class="menu-item-price">8&euro;</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="menu-item-name">WRAP</span>
+                        <span class="menu-item-desc">ripieno di mele, mandorle, uvetta, cannella e miele</span>
+                        <span class="menu-item-price">8&euro;</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="menu-item-name">BEIJINHO</span>
+                        <span class="menu-item-desc">2 tartufini al cocco <em>(vegetariano/gluten free)</em></span>
+                        <span class="menu-item-price">2,5&euro;</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="menu-item-name">BRIGADEIRO</span>
+                        <span class="menu-item-desc">2 tartufini al cioccolato <em>(vegetariano/gluten free)</em></span>
+                        <span class="menu-item-price">2,5&euro;</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="menu-item-name">SORBETTO LIMONE</span>
+                        <span class="menu-item-desc">coppetta 80 gr <em>(vegano)</em></span>
+                        <span class="menu-item-price">3&euro;</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="menu-item-name">GELATO ALLA FRAGOLA</span>
+                        <span class="menu-item-desc">coppetta 80 gr <em>(vegetariano)</em></span>
+                        <span class="menu-item-price">3&euro;</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="menu-item-name">MACEDONIA DI FRUTTA</span>
+                        <span class="menu-item-desc">con yogurt, miele e granola</span>
+                        <span class="menu-item-price">4,5&euro;</span>
+                    </div>
+                </div>
+
+                <!-- BEVANDE -->
+                <div class="menu-category menu-category-small" id="menu-bevande" data-category="bevande">
+                    <h3 class="menu-category-title">Bevande <small>(0,33L)</small></h3>
+                    <div class="menu-item">
+                        <span class="menu-item-name">Chinotto</span>
+                        <span class="menu-item-price">3&euro;</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="menu-item-name">Cedrata</span>
+                        <span class="menu-item-price">3&euro;</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="menu-item-name">Cola</span>
+                        <span class="menu-item-price">3&euro;</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="menu-item-name">Aranciata</span>
+                        <span class="menu-item-price">3&euro;</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="menu-item-name">Gassosa</span>
+                        <span class="menu-item-price">3&euro;</span>
+                    </div>
+                </div>
+
+                <!-- BIRRE -->
+                <div class="menu-category menu-category-small" id="menu-birre" data-category="bevande">
+                    <h3 class="menu-category-title">Birre</h3>
+                    <div class="menu-subgroup-title">0,33 L</div>
+                    <div class="menu-item">
+                        <span class="menu-item-name">La Weisse (4,9%)</span>
+                        <span class="menu-item-price">4&euro;</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="menu-item-name">La Bionda (4,5%)</span>
+                        <span class="menu-item-price">4&euro;</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="menu-item-name">La Rossa (5,5%)</span>
+                        <span class="menu-item-price">4&euro;</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="menu-item-name">Gluten free (5%)</span>
+                        <span class="menu-item-price">4&euro;</span>
+                    </div>
+                    <div class="menu-subgroup-title">0,50 L</div>
+                    <div class="menu-item">
+                        <span class="menu-item-name">Bio Cimbra (4,8%)</span>
+                        <span class="menu-item-price">6&euro;</span>
+                    </div>
+                    <div class="menu-item">
+                        <span class="menu-item-name">Pils italiana (4,9%)</span>
+                        <span class="menu-item-price">6&euro;</span>
+                    </div>
+                </div>
+
+                <!-- VINI BIO -->
+                <div class="menu-category" id="menu-vini" data-category="bevande">
+                    <h3 class="menu-category-title">Vini Bio <small>(0,75L)</small></h3>
+                    <div class="menu-vini-grid">
+                        <div>
+                            <h4 class="menu-vini-subtitle">Bianchi</h4>
+                            <div class="menu-item">
+                                <span class="menu-item-name">Bacco - Chardonnay</span>
+                                <span class="menu-item-price">10&euro;</span>
+                            </div>
+                            <div class="menu-item">
+                                <span class="menu-item-name">Scoglio - Grechetto</span>
+                                <span class="menu-item-price">15&euro;</span>
+                            </div>
+                            <div class="menu-item">
+                                <span class="menu-item-name">Cacciadebbitu - Passerina</span>
+                                <span class="menu-item-price">16&euro;</span>
+                            </div>
+                            <div class="menu-item">
+                                <span class="menu-item-name">Diamine - Pecorino</span>
+                                <span class="menu-item-price">18&euro;</span>
+                            </div>
+                        </div>
+                        <div>
+                            <h4 class="menu-vini-subtitle">Rossi</h4>
+                            <div class="menu-item">
+                                <span class="menu-item-name">Casale 5 Scudi - Syrah</span>
+                                <span class="menu-item-price">10&euro;</span>
+                            </div>
+                            <div class="menu-item">
+                                <span class="menu-item-name">Scoglio - Merlot</span>
+                                <span class="menu-item-price">15&euro;</span>
+                            </div>
+                            <div class="menu-item">
+                                <span class="menu-item-name">Aida - Montepulciano</span>
+                                <span class="menu-item-price">17&euro;</span>
+                            </div>
+                            <div class="menu-item">
+                                <span class="menu-item-name">Lu diaulu - Cesanese</span>
+                                <span class="menu-item-price">18&euro;</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TIGELA -->
+                <div class="menu-category" id="menu-tigela" data-category="bowls-frutta">
+                    <h3 class="menu-category-title">Tigela (Bowls) <small>6&euro;</small></h3>
+                    <div class="menu-item"><span class="menu-item-name">1.</span> <span class="menu-item-desc">Cremolato
+                            di a&ccedil;a&iacute;, banana, miele, guaran&aacute; e granola</span></div>
+                    <div class="menu-item"><span class="menu-item-name">2.</span> <span class="menu-item-desc">Cremolato
+                            di maracuj&aacute;, mango, banana, miele e granola</span></div>
+                    <div class="menu-item"><span class="menu-item-name">3.</span> <span class="menu-item-desc">Cremolato
+                            di cacau, graviola, banana, miele e granola</span></div>
+                    <div class="menu-item"><span class="menu-item-name">4.</span> <span class="menu-item-desc">Cremolato
+                            di goiaba, papaya, latte, miele e granola</span></div>
+                </div>
+
+                <!-- SUCOS TROPICAIS -->
+                <div class="menu-category" id="menu-sucos" data-category="bowls-frutta">
+                    <h3 class="menu-category-title">Sucos Tropicais <small>4,5&euro;</small></h3>
+                    <div class="menu-item"><span class="menu-item-name">1.</span> <span class="menu-item-desc">Acerola,
+                            arancia, zenzero e miele</span></div>
+                    <div class="menu-item"><span class="menu-item-name">2.</span> <span class="menu-item-desc">Graviola,
+                            cupua&ccedil;u, mela e miele</span></div>
+                    <div class="menu-item"><span class="menu-item-name">3.</span> <span
+                            class="menu-item-desc">Maracuj&aacute;, mela, menta e miele</span></div>
+                    <div class="menu-item"><span class="menu-item-name">4.</span> <span class="menu-item-desc">Mango,
+                            goiaba, mela e miele</span></div>
+                    <div class="menu-item"><span class="menu-item-name">5.</span> <span class="menu-item-desc">Papaya,
+                            mango, mela e miele</span></div>
+                    <div class="menu-item"><span class="menu-item-name">6.</span> <span class="menu-item-desc">Mango,
+                            graviola, mela, zenzero e miele</span></div>
+                </div>
+
+                <!-- CENTRIFUGHE -->
+                <div class="menu-category" id="menu-centrifughe" data-category="bowls-frutta">
+                    <h3 class="menu-category-title">Centrifughe <small>4&euro;</small></h3>
+                    <div class="menu-item"><span class="menu-item-name">1.</span> <span class="menu-item-desc">Mela,
+                            kiwi, limone, sedano e menta</span></div>
+                    <div class="menu-item"><span class="menu-item-name">2.</span> <span class="menu-item-desc">Ananas,
+                            arancia, limone e zenzero</span></div>
+                    <div class="menu-item"><span class="menu-item-name">3.</span> <span class="menu-item-desc">Ananas,
+                            mela, limone, finocchio e zenzero</span></div>
+                    <div class="menu-item"><span class="menu-item-name">4.</span> <span class="menu-item-desc">Carota,
+                            arancia e limone</span></div>
+                    <div class="menu-item"><span class="menu-item-name">5.</span> <span class="menu-item-desc">Carota,
+                            mela, finocchio, sedano, limone e zenzero</span></div>
+                    <div class="menu-item"><span class="menu-item-name">6.</span> <span class="menu-item-desc">Pera,
+                            mela, limone e zenzero</span></div>
+                </div>
+
+                <!-- FRULLATI -->
+                <div class="menu-category" id="menu-frullati" data-category="bowls-frutta">
+                    <h3 class="menu-category-title">Frullati <small>4,5&euro;</small></h3>
+                    <div class="menu-item"><span class="menu-item-name">1.</span> <span class="menu-item-desc">Banana,
+                            mela, yogurt, latte, miele e fiocchi di avena</span></div>
+                    <div class="menu-item"><span class="menu-item-name">2.</span> <span class="menu-item-desc">Ananas,
+                            kiwi, banana, limone e miele</span></div>
+                    <div class="menu-item"><span class="menu-item-name">3.</span> <span class="menu-item-desc">Banana,
+                            nocciole, cacao in polvere e latte</span></div>
+                    <div class="menu-item"><span class="menu-item-name">4.</span> <span class="menu-item-desc">Kiwi,
+                            pera, mela, limone, miele e yogurt</span></div>
+                    <div class="menu-item"><span class="menu-item-name">5.</span> <span class="menu-item-desc">Pera,
+                            zenzero, latte, cacao in polvere e yogurt</span></div>
+                    <div class="menu-item"><span class="menu-item-name">6.</span> <span class="menu-item-desc">Mela,
+                            ananas, kiwi, zenzero e miele</span></div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ══ POSIZIONE ══════════════════════════════════════ -->
+    <section class="section-posizione" id="posizione" aria-labelledby="posizione-heading">
+        <div class="section-container">
+            <span class="section-label">Dove Siamo</span>
+            <h2 class="section-title" id="posizione-heading">
+                Vieni a trovarci<br><em>al Pigneto</em>
+            </h2>
+            <div class="posizione-content">
+                <div class="posizione-map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2970.5!2d12.5278892!3d41.8864136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f61896b34f093%3A0xc8712ee12f838d63!2sVitaminas24!5e0!3m2!1sit!2sit!4v1698850000000!5m2!1sit!2sit"
+                        width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade" title="Posizione Vitaminas24 su Google Maps"
+                        id="map-iframe">
+                    </iframe>
+                </div>
+                <div class="posizione-info">
+                    <div class="posizione-card">
+                        <span class="posizione-icon">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                <circle cx="12" cy="10" r="3"></circle>
+                            </svg>
+                        </span>
+                        <div>
+                            <strong>Indirizzo</strong>
+                            <p>Via Ascoli Piceno 40-42<br>00176 Roma &mdash; Quartiere Pigneto</p>
+                        </div>
+                    </div>
+                    <div class="posizione-card">
+                        <span class="posizione-icon">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <rect x="4" y="3" width="16" height="16" rx="2"></rect>
+                                <path d="M4 11h16"></path>
+                                <path d="M8 15h.01"></path>
+                                <path d="M16 15h.01"></path>
+                                <path d="M6 19v2"></path>
+                                <path d="M18 19v2"></path>
+                            </svg>
+                        </span>
+                        <div>
+                            <strong>Come raggiungerci</strong>
+                            <p>Tram 5, 14, 19 &mdash; fermata Pigneto<br>Metro C &mdash; stazione Pigneto</p>
+                        </div>
+                    </div>
+                    <div class="posizione-card">
+                        <span class="posizione-icon">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12 6 12 12 16 14"></polyline>
+                            </svg>
+                        </span>
+                        <div>
+                            <strong>Orari</strong>
+                            <p>Aperto tutti i giorni<br>Pranzo &amp; Cena</p>
+                        </div>
+                    </div>
+                    <a href="https://www.google.com/maps/place/Vitaminas24/@41.8864136,12.5300779,17z" target="_blank"
+                        rel="noopener noreferrer" class="btn btn-dark" id="btn-directions">
+                        Indicazioni stradali &rarr;
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ══ CONTATTI ════════════════════════════════════════ -->
+    <section class="section-contatti" id="contatti" aria-labelledby="contatti-heading">
+        <div class="section-container">
+            <span class="section-label">Contatti &amp; Prenotazioni</span>
+            <h2 class="section-title" id="contatti-heading">
+                Parliamone<br><em>insieme</em>
+            </h2>
+
+            <div class="contatti-content">
+                <!-- COLONNA 1: CANALI DIRETTI -->
+                <div class="contatti-channels">
+                    <p class="contatti-intro">
+                        Che si tratti di un tavolo, di una domanda sui piatti o dell'organizzazione di un evento
+                        privato, siamo sempre felici di accoglierti.
+                    </p>
+                    <div class="contatti-list">
+                        <a href="tel:+390601902086" class="contatti-channel-card" id="contatti-phone">
+                            <div class="contatti-icon-wrap">
+                                <span class="contatti-icon">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                        aria-hidden="true">
+                                        <path
+                                            d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                                        </path>
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="contatti-channel-info">
+                                <strong>Telefono</strong>
+                                <span class="contatti-value">+39 06 0190 2086</span>
+                                <span class="contatti-subtext">Chiamaci per info e prenotazioni</span>
+                            </div>
+                            <span class="contatti-arrow">&rarr;</span>
+                        </a>
+
+                        <a href="mailto:info@vitaminas24.it" class="contatti-channel-card" id="contatti-email">
+                            <div class="contatti-icon-wrap">
+                                <span class="contatti-icon">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                        aria-hidden="true">
+                                        <path
+                                            d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                        </path>
+                                        <polyline points="22,6 12,13 2,6"></polyline>
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="contatti-channel-info">
+                                <strong>Email</strong>
+                                <span class="contatti-value">info@vitaminas24.it</span>
+                                <span class="contatti-subtext">Scrivici per ogni richiesta o evento</span>
+                            </div>
+                            <span class="contatti-arrow">&rarr;</span>
+                        </a>
+
+                        <a href="https://www.instagram.com/vitaminas24/" target="_blank" rel="noopener noreferrer"
+                            class="contatti-channel-card" id="contatti-instagram">
+                            <div class="contatti-icon-wrap">
+                                <span class="contatti-icon">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                        aria-hidden="true">
+                                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="contatti-channel-info">
+                                <strong>Instagram</strong>
+                                <span class="contatti-value">@vitaminas24</span>
+                                <span class="contatti-subtext">Segui novit&agrave; e piatti del giorno</span>
+                            </div>
+                            <span class="contatti-arrow">&rarr;</span>
+                        </a>
+
+                        <a href="https://www.facebook.com/vitaminas24/" target="_blank" rel="noopener noreferrer"
+                            class="contatti-channel-card" id="contatti-facebook">
+                            <div class="contatti-icon-wrap">
+                                <span class="contatti-icon">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                        aria-hidden="true">
+                                        <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z">
+                                        </path>
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="contatti-channel-info">
+                                <strong>Facebook</strong>
+                                <span class="contatti-value">Vitaminas24</span>
+                                <span class="contatti-subtext">La nostra pagina della community</span>
+                            </div>
+                            <span class="contatti-arrow">&rarr;</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- COLONNA 2: PRENOTAZIONI & INFO UTILI -->
+                <div class="contatti-booking-box">
+                    <h3 class="booking-title">Prenota un Tavolo</h3>
+                    <p class="booking-desc">
+                        Aperti tutti i giorni per <strong>pranzo</strong> e <strong>cena</strong> nel cuore del Pigneto.
+                        Per allergie, intolleranze o menu speciali (100% vegan, gluten-free), segnalacelo durante la
+                        prenotazione.
+                    </p>
+
+                    <div class="booking-badges">
+                        <span class="booking-badge">Pet Friendly</span>
+                        <span class="booking-badge">Gluten-Free</span>
+                        <span class="booking-badge">100% Naturale</span>
+                        <span class="booking-badge">Take Away</span>
+                    </div>
+
+                    <div class="booking-actions">
+                        <a href="tel:+390601902086" class="btn btn-dark" id="btn-call-booking">
+                            <span>Chiama per prenotare</span>
+                        </a>
+                        <a href="mailto:info@vitaminas24.it" class="btn btn-outline" id="btn-email-booking">
+                            <span>Invia una mail</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="footer">
+        <img src="images/logo.png" alt="Vitaminas24" class="footer-logo" id="footer-logo" />
+        <p>Bistrot naturale vegano &amp; vegetariano<br>Via Ascoli Piceno 40-42, Roma Pigneto</p>
+        <div class="footer-divider"></div>
+        <p class="copyright">&copy; 2024 Vitaminas24 &middot; Tutti i diritti riservati</p>
+    </footer>
+
+    <!-- JAVASCRIPT: MENU FILTER & SCROLLSPY -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Menu Category Filtering
+            const filterButtons = document.querySelectorAll('.menu-filter-btn');
+            const menuCategories = document.querySelectorAll('.menu-category');
+
+            filterButtons.forEach(btn => {
+                btn.addEventListener('click', function () {
+                    const filter = this.getAttribute('data-filter');
+
+                    filterButtons.forEach(b => b.classList.remove('active'));
+                    this.classList.add('active');
+
+                    menuCategories.forEach(cat => {
+                        const catGroup = cat.getAttribute('data-category');
+                        if (filter === 'all' || catGroup === filter) {
+                            cat.classList.remove('menu-category-hidden');
+                        } else {
+                            cat.classList.add('menu-category-hidden');
+                        }
+                    });
+                });
+            });
+
+            // Nav Scrollspy
+            const sections = document.querySelectorAll('section[id], #chi-siamo');
+            const navLinks = document.querySelectorAll('#main-nav .nav-link');
+
+            function updateActiveNav() {
+                const scrollPos = window.scrollY + 130;
+                sections.forEach(section => {
+                    const top = section.offsetTop;
+                    const height = section.offsetHeight;
+                    const id = section.getAttribute('id');
+                    if (scrollPos >= top && scrollPos < top + height) {
+                        navLinks.forEach(link => {
+                            if (link.getAttribute('href') === '#' + id) {
+                                link.classList.add('active');
+                            } else {
+                                link.classList.remove('active');
+                            }
+                        });
+                    }
+                });
+            }
+
+            window.addEventListener('scroll', updateActiveNav, { passive: true });
+            updateActiveNav();
+        });
+    </script>
+</body>
+
+</html>
